@@ -1,10 +1,14 @@
 'use client'
 
+import React, { ChangeEvent } from 'react';
 import toggle from './toggleTheme.module.scss';
 import { Icon } from '@iconify/react';
-import { ChangeEvent } from 'react';
 
-const handleToggle = (e: ChangeEvent): void => {
+interface ToggleThemeProps {
+  className?: string; // Accept a className prop
+}
+
+const handleToggle = (e: ChangeEvent<HTMLInputElement>): void => {
   const $el = e.target as HTMLInputElement;
   
   if ($el.checked) {
@@ -16,9 +20,9 @@ const handleToggle = (e: ChangeEvent): void => {
   }
 };
 
-export default function ToggleTheme() {
+const ToggleTheme: React.FC<ToggleThemeProps> = ({ className }) => {
   return (
-    <label className={toggle.toggle}>
+    <label className={`${toggle.toggle} ${className || ''}`}>
       <input onChange={(e) => handleToggle(e)} id="theme" type="checkbox" className={`${toggle.input} theme`} />
       <div className={toggle.wrapper}>
         <div className={toggle.icon}>
@@ -31,3 +35,5 @@ export default function ToggleTheme() {
     </label>
   );
 }
+
+export default ToggleTheme;

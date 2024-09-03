@@ -4,21 +4,21 @@ import CardJob from '@/components/cards/cardJob/cardJob';
 import styles from './listChrono.module.scss';
 
 type Props = {
-  list: Array<ListProps>,
-  category: string
+  list: Array<ListProps>;
+  category: string;
 };
 
 type ListProps = {
-  category: string,
-  jobs: Array<JobProps>
+  category: string;
+  jobs: Array<JobProps>;
 };
 
 type JobProps = {
-  title: string,
-  description: string,
-  tags: Array<string>,
-  image?: string,
-  url?: string
+  title: string;
+  description?: string; // Make description optional
+  tags: Array<string>;
+  image?: string; // Make image optional
+  url?: string;   // Make url optional
 };
 
 export default function ListChrono({ list, category }: Props) {
