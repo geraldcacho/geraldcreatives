@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer role="contentinfo" className={styles.footer}>
       <nav className={styles.links}>
-        <LinkExternal title="Resume" href="/files/Gerald_Cacho_resume.pdf" />
+        <LinkExternal title="Resume" href="/files/Gerald_Cacho_resume2024.pdf" />
         <LinkExternal title="LinkedIn" href="https://www.linkedin.com/in/gerald-cacho/" />
       </nav>
 

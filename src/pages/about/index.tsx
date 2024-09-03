@@ -40,15 +40,18 @@ export default function Sobre() {
             'CSS',
             'JavaScript',
             'PHP',
+            'WordPress',
             'Shopify',
             'Webflow',
-            'User Experience',
-            'WordPress',
+            'Next.js',
             'Git',
+            'User Experience',         
             'User Interface',
             'Figma',
             'Photoshop',
             'Illustrator',
+            'GHL',
+            'ClickUp'
           ]} />
         </div>
       </div>
