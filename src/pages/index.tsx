@@ -48,7 +48,7 @@ export default function Index() {
         <article className={styles.presentation}>
           <Image
             priority
-            src={theme === 'dark' ? '/img/gc-logo-white.png' : '/img/gc-logo-white.png'}
+            src={theme === 'dark' ? '/img/gc-logo-white.png' : '/img/gc-logo-dark.png'}
             width={280}
             height={480}
             alt="Gerald Cacho Logo"
