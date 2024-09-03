@@ -15,7 +15,7 @@ export default function Footer() {
 
       <p className={styles.connect}>
         <a href="mailto:gc.geraldcacho@gmail.com" className={styles.cta}>
-          <strong>Let's Connect</strong>
+          <strong>Let&apos;s Connect</strong>
         </a>
       </p>
       <p className={styles.copy}>2024 &copy; Gerald Cacho</p>

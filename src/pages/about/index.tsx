@@ -18,7 +18,7 @@ export default function Sobre() {
           <h1>About Me</h1>
           <p>Hi there! I’m Gerald Cacho, a web developer and designer based in Baguio City, Philippines 🌟. I specialize in creating high-performance websites using WordPress, PHP, and other CMS platforms like Squarespace and Shopify 💻🎨. With expertise in web development, SEO, and graphic design, I create engaging, user-friendly web experiences.</p>
           <br/>
-          <p>When I'm not coding or designing, you’ll find me engaging with the digital nomad community or exploring new ways to share and gain knowledge.</p>
+          <p>When I'm not coding or designing, you&apos;ll find me engaging with the digital nomad community or exploring new ways to share and gain knowledge.</p>
           <br/>
           <p>Let’s create something amazing together!</p>
         </div>
