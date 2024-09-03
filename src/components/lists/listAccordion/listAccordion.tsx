@@ -1,6 +1,5 @@
 import ButtonCTA from '@/components/buttons/cta/cta';
 import { Icon } from '@iconify/react';
-import Image from 'next/image';
 import styles from './listAccordion.module.scss';
 
 type Props = {
@@ -9,13 +8,11 @@ type Props = {
 
 type ItemProps = {
   title: string,
-  content: string,
-  thumb: string,
-  thumbAlt: string
+  content: string
 }
 
 export default function ListAccordion(props: Props) {
- return(
+  return (
     <ol className={styles.list}>
       {props.list.map((item, index) => (
         <li key={index} className={styles.item}>
@@ -26,17 +23,11 @@ export default function ListAccordion(props: Props) {
             </summary>
             <div className={styles.content}>
               <p>{item.content}</p>
-              <ButtonCTA title="Entre em contato" href="mailto:me@kevinoliveira.com.br" />
-
-              {item.thumb ?
-                <Image className={styles.image} src={item.thumb} width="648" height="486" loading="lazy" alt={item.thumbAlt} />
-                : ''
-              }
-
+              <ButtonCTA title="Let's Connect" href="mailto:gc.geraldcacho@gmail.com" />
             </div>
           </details>
         </li>
       ))}
     </ol>
- )
+  );
 }

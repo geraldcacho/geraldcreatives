@@ -16,6 +16,11 @@
   height: 48px;
   transition: 0.2s transform ease;
 
+  @media (max-width: 480px) {
+    width: 60px;
+    height: 60px;
+  }
+  
   @media (min-width: 768px) {
     width: 56px;
     height: 56px;
@@ -53,6 +58,11 @@
   border-radius: 50%;
   overflow: hidden;
   background-color: var(--color-primary-shade);
+
+  @media (max-width: 480px) {
+    width: 60px;
+    height: 60px;
+  }
 
   @media (min-width: 768px) {
     width: 56px;
@@ -94,7 +104,7 @@
 .avatar {
   width: auto;
   height: 40px;
-  mix-blend-mode: exclusion;
+  mix-blend-mode: normal;
 
   @media (min-width: 768px) {
     height: 48px;

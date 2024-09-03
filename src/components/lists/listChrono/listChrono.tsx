@@ -1,38 +1,49 @@
+// components/listChrono/listChrono.tsx
+
 import CardJob from '@/components/cards/cardJob/cardJob';
 import styles from './listChrono.module.scss';
 
 type Props = {
-  list: Array<ListProps>
+  list: Array<ListProps>,
+  category: string
 };
 
 type ListProps = {
-  year: number,
+  category: string,
   jobs: Array<JobProps>
-}
+};
 
 type JobProps = {
   title: string,
   description: string,
   tags: Array<string>,
-  image?: string
-}
+  image?: string,
+  url?: string
+};
 
-export default function ListChrono(props: Props) {
-  return(
+export default function ListChrono({ list, category }: Props) {
+  // Find the portfolio data for the selected category
+  const filteredList = list.find(item => item.category === category);
+
+  if (!filteredList) return <p>No projects found in this category.</p>;
+
+  return (
     <ol className={styles.list}>
-    {props.list.map((list, index) => (
-      <li className={styles['list-item']} key={index}>
-        <h2 className={styles['list-title']}>{list.year}</h2>
-
-        <ul className={styles.sublist}>
-          {list.jobs.map((job, index) => (
-            <li className={styles['sublist-item']} key={index}>
-              <CardJob title={job.title} description={job.description} tags={job.tags} image={job.image} />
+      {filteredList.jobs.map((job, index) => (
+        <li className={styles['list-item']} key={index}>
+          <ul className={styles.sublist}>
+            <li className={styles['sublist-item']}>
+              <CardJob
+                title={job.title}
+                description={job.description}
+                tags={job.tags}
+                image={job.image}
+                url={job.url}
+              />
             </li>
-          ))}
-        </ul>
-      </li>
-    ))}
-  </ol>
-  )
+          </ul>
+        </li>
+      ))}
+    </ol>
+  );
 }

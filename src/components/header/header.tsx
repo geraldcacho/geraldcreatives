@@ -8,14 +8,14 @@ export default function Header() {
   const router = useRouter();
 
   return (
-    <header role="banner" className={styles.header}>
-      <Logo />
+    <header id="top" role="banner" className={styles.header}>
+      <Logo className={styles.logo} />
       <nav className={styles.menu}>
-        <Link href="/sobre" className={`${styles['menu-item']} ${router.pathname == "/sobre" ? styles.active : ""}`}>Sobre</Link>
-        <Link href="/portfolio" className={`${styles['menu-item']} ${router.pathname == "/portfolio" ? styles.active : ""}`}>Portfólio</Link>
-        <Link href="/servicos" className={`${styles['menu-item']} ${router.pathname == "/servicos" ? styles.active : ""}`}>Serviços</Link>
+        <Link href="/about" className={`${styles['menu-item']} ${router.pathname === "/about" ? styles.active : ""}`}>About Me</Link>
+        <Link href="/portfolio" className={`${styles['menu-item']} ${router.pathname === "/portfolio" ? styles.active : ""}`}>Portfolio</Link>
+        <Link href="/services" className={`${styles['menu-item']} ${router.pathname === "/services" ? styles.active : ""}`}>Services</Link>
       </nav>
-      <ToggleTheme />
+      <ToggleTheme className={styles['toggle-theme']} />
     </header>
-  )
+  );
 }

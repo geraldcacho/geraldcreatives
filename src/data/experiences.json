@@ -1,32 +1,50 @@
 [
   {
-    "year": 2014,
-    "title": "Lojas Incor",
-    "description": "Responsável pelo desenvolvimento da interface e cuidado à experiência do usuário das lojas virtuais, criação das campanhas publicitárias, banners e toda a gestão de artes do site utilizando Adobe Photoshop e Adobe Illustrator."
+    "year": "2022-2024",
+    "title": "Web Developer",
+    "company": " Cloudstaff (Client: TheHypeSociety)",
+    "description": "Created websites for new clients by converting PSD designs or designing themes in WordPress and Elementor. Customized WooCommerce stores and managed CMS platforms like Wix and Squarespace. Handled website maintenance, updates, web hosting management, and graphic design. Improved website performance with HTML, CSS, JavaScript, and PHP. Implemented SEO strategies and designed email marketing templates."
   },
   {
-    "year": 2016,
-    "title": "INSANE",
-    "description": "Estruturação de e-mails marketing, focando na performance em dispositivos móveis;Programação e manutenção front-end de projetos online (sites institucionais, landing pages, one pages e blogs), utilizando WordPress, Jekyll, PHP e HTML5."
+    "year": "2022",
+    "title": "Senior Graphic Designer",
+    "company": "Emapta (Client: Canningvale)",
+    "description": "Developed branding guidelines and designed digital content, including EDMs, web banners, and social media graphics. Produced print-ready artwork and performed photo retouching and color correction."
   },
   {
-    "year": 2018,
-    "title": "Pacto.online",
-    "description": "Responsável pela manutenção do UI styleguide da empresa, criação das telas front-end utilizando Figma para prototipação, e Vue.js e Laravel para produção, criação e vazão de e-mails marketings."
+    "year": "2021-2022",
+    "title": "Senior Software Engineer",
+    "company": "CloudStaff (Client: Virtunet)",
+    "description": "Designed, implemented, and managed WordPress websites, including custom themes and plugins. Handled front-end and back-end development, managed eCommerce and BYOD page updates, and maintained the Linode web server. Provided troubleshooting support and created EDMs, social media creatives, and other graphic designs."
   },
   {
-    "year": 2018,
-    "title": "Murilhas Comunicação",
-    "description": "Responsável pela manutenção do UI styleguide da empresa, criação das telas front-end utilizando Figma para prototipação, e Vue.js e Laravel para produção, criação e vazão de e-mails marketings."
+    "year": "2017-2021",
+    "title": "Web Developer | Graphics & UI/UX Designer",
+    "company": "Freelance",
+    "description": "Designed and developed websites using WordPress, Shopify, and Webflow. Managed server operations, security, and implemented SEO strategies. Created visual assets and multimedia content."
   },
   {
-    "year": "2019",
-    "title": "Din Digital",
-    "description": "Desenvolvimento de sites, aplicações e landing pages utilizando Laravel, WordPress, Vue.js e Angular. Atuando desde a montagem até a integração com APIs."
+    "year": "2018-2020",
+    "title": "Graphic Designer | Desktop Publisher | Bid Coordinator",
+    "company": "GulfStar",
+    "description": "Redesigned and maintained the corporate WordPress site. Developed proposals, templates, and marketing materials to boost brand visibility."
   },
   {
-    "year": "2023",
-    "title": "Docway",
-    "description": "Desenvolvimento de novas aplicações em React e sustentação de aplicações feitas com ASP.NET MVC, atuando com grande equipe de tecnologia."
+    "year": "2017-2018",
+    "title": "Web Developer & Designer | Digital Marketing",
+    "company": "Blocks Real Estate",
+    "description": "Designed and developed websites with API integrations, managed cPanels, and launched new sites. Created marketing materials and video ads. Managed social media accounts, executed SEO strategies, and handled Google AdWords campaigns."
+  },
+  {
+    "year": "2015-2017",
+    "title": "Front-End Developer",
+    "company": "ZIMI Tech",
+    "description": "Designed and developed WordPress sites, custom web prototypes, and worked on the front-end of internal CRM systems. Created logos, images, animations, and banners, while optimizing website speed and SEO."
+  },
+  {
+    "year": "2014-2015",
+    "title": "Web Developer | Webmaster",
+    "company": "Optimize Web Solutions",
+    "description": "Designed and developed websites using WordPress, PHP with Bootstrap, and other CMS platforms. Managed server infrastructure, performed website updates, backups, and troubleshooting. Built and led the production team."
   }
 ]

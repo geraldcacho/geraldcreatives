@@ -1,271 +1,146 @@
 [
   {
-    "year": 2024,
+    "category": "Website Projects",
     "jobs": [
       {
-        "title": "99Vidas Podcast",
-        "description": "Redesign do branding e do site do 99Vidas Podcast utilizando Figma, montagem e integração feito com WordPress.",
-        "tags": ["branding", "design", "front-end", "wordpress"],
-        "image": "https://cdn.dribbble.com/userupload/14414474/file/original-cc09d279453cf421d55f5feb40f0be92.png?resize=720x560"
+        "title": "1st Energy",
+        "description": "Assisted with developing and maintaining the 1st Energy website, ensuring optimal performance and regular updates. Utilized WordPress and Elementor for seamless content management and custom design.",
+        "tags": ["Web Development", "Maintenance", "WordPress", "Elementor", "Custom Design"],
+        "url": "https://1stenergy.com.au/",
+        "image": "/img/1stenergy-thumbnail-min.jpg"
+      },
+      {
+        "title": "ATech Products",
+        "description": "Designed and implemented a custom WooCommerce solution for ATech Products, enhancing product displays and user engagement. Focused on banner editing and product management for a dynamic e-commerce experience.",
+        "tags": ["WooCommerce", "E-commerce", "Custom Design", "Product Management", "Banner Editing"],
+        "url": "https://atechproducts.com.au/",
+        "image": "/img/atech-thumbnail-min.jpg"
+      },
+      {
+        "title": "A Speechie Speech Pathology",
+        "description": "Developed a polished website for A Speechie Speech Pathology with optimized content and images for a professional online presence. Used WordPress and Elementor for design and content management.",
+        "tags": ["Website Development", "Content Optimization", "WordPress", "Elementor", "Photo Editing"],
+        "url": "https://aspeechiespeechpathology.com.au/",
+        "image": "/img/aspeechie-thumbnail-min.jpg"
+      },
+      {
+        "title": "Highway Caravans",
+        "description": "Created a custom-designed website for Highway Caravans with a focus on client-specific needs. Employed WordPress and Elementor for a unique and functional site experience.",
+        "tags": ["Custom Design", "WordPress", "Elementor", "Website Development", "Client-Centric Design"],
+        "url": "https://www.highwaycaravans.com.au/prorv/",
+        "image": "/img/highway caravans-thumbnail-min.jpg"
+      },
+      {
+        "title": "Offices Now",
+        "description": "Developed a website for Offices Now featuring office space listings with optimized images for a better user experience. Utilized WordPress and Elementor for design and functionality.",
+        "tags": ["Website Development", "Office Listings", "Image Optimization", "WordPress", "Elementor"],
+        "url": "https://officesnow.com.au/",
+        "image": "/img/officesnow-thumbnail-min.jpg"
+      },
+      {
+        "title": "Sherpa Tech",
+        "description": "Designed and developed a visually appealing site for Sherpa Tech that balances aesthetics and functionality. Used WordPress and Elementor to create an effective online presence.",
+        "tags": ["Website Design", "WordPress", "Elementor", "Development", "Custom Design"],
+        "url": "https://sherpatech.au/",
+        "image": "/img/sherpatech-thumbnail-min.jpg"
+      },
+      {
+        "title": "Palletrak",
+        "description": "Developed a robust website for Palletrak, incorporating custom icons and photo editing to align with their brand. Utilized WordPress for site construction and Elementor for design flexibility.",
+        "tags": ["Website Development", "Custom Icons", "Photo Editing", "WordPress", "Elementor"],
+        "url": "http://palletrak.com.au/",
+        "image": "/img/palletrak-thumbnail-min.jpg"
+      },
+      {
+        "title": "Warehouse Safety Audits",
+        "description": "Optimized the Warehouse Safety Audits site with custom icons and refined imagery to support their safety goals. Developed the site using WordPress for functionality and Elementor for design enhancements.",
+        "tags": ["Website Optimization", "Custom Icons", "Photo Editing", "WordPress", "Elementor"],
+        "url": "https://warehousesafetyaudits.com.au/",
+        "image": "/img/wsa-thumbnail-min.jpg"
+      },
+      {
+        "title": "Kalke Montessori",
+        "description": "Customized and developed a website for Kalke Montessori, reflecting their educational values through theme modifications and thoughtful design edits. Utilized WordPress and Elementor for development and customization.",
+        "tags": ["Theme Customization", "Website Development", "Educational Design", "WordPress", "Elementor"],
+        "url": "https://kalkermontessori.vic.edu.au/",
+        "image": "/img/kalker-thumbnail-min.jpg"
+      },
+      {
+        "title": "IntoJobs",
+        "description": "Restructured and enhanced the Into Jobs website to improve user experience and functionality. Focused on feature enhancements using WordPress and Elementor for a more intuitive job portal.",
+        "tags": ["Site Restructuring", "Feature Enhancement", "WordPress", "Elementor", "User Experience"],
+        "url": "https://intojobs.com.au/",
+        "image": "/img/intojobs-thumbnail-min.jpg"
+      },
+      {
+        "title": "Image Creation",
+        "description": "Maintains and updates the Image Creation website, ensuring it showcases creative work with ongoing updates. Used WordPress and Elementor for continuous content management and design improvements.",
+        "tags": ["Website Maintenance", "Content Updates", "WordPress", "Elementor", "Creative Showcase"],
+        "url": "http://imagecreation.com.au/",
+        "image": "/img/imagecreation-thumbnail-min.jpg"
+      },
+      {
+        "title": "The Hype Society",
+        "description": "Revamped The Hype Society website by adding new pages and animations, optimizing images for performance. Employed modern web technologies including WordPress and Elementor to enhance user interaction.",
+        "tags": ["Website Updates", "Animations", "Page Creation", "WordPress", "Elementor"],
+        "url": "https://www.thehypesociety.com.au/",
+        "image": "/img/ths-thumbnail-min.jpg"
       }
     ]
   },
   {
-    "year": 2023,
+    "category": "Graphics & Logo Design",
     "jobs": [
       {
-        "title": "Dr Pet",
-        "description": "Montagem e integração do novo site e painel Dr Pet feito com Laravel Blade e Vue",
-        "tags": ["front-end", "laravel blade", "vue"]
+        "title": "Logo for Mage Digital",
+        "tags": ["Logo Design", "Brand Identity", "Graphic Design", "Adobe Illustrator"],
+        "image": "/img/Logo-Showcase-Mage-min.jpg"
       },
       {
-        "title": "Kevin Oliveira",
-        "description": "Redesign e desenvolvimento deste meu novo site feito com Next.js",
-        "tags": ["design", "front-end", "nextjs"]
+        "title": "Logo for Kido Farm",
+        "tags": ["Logo Design", "Brand Identity", "Graphic Design", "Adobe Illustrator"],
+        "image": "/img/Logo-Showcase-Kido-min.jpg"
       },
       {
-        "title": "Leandro Pellarin",
-        "description": "Montagem e integração do novo site do cirurgião plástico Leandro Pellarin, utilizando WordPress.",
-        "tags": ["front-end", "wordpress"]
+        "title": "Logo for Yans",
+        "tags": ["Logo Design", "Brand Identity", "Graphic Design", "Adobe Illustrator"],
+        "image": "/img/Logo-Showcase-Yans-min.jpg"
+      },
+      {
+        "title": "Logo for Dibs Thrift Store",
+        "tags": ["Logo Design", "Brand Identity", "Graphic Design", "Adobe Illustrator"],
+        "image": "/img/Logo-Showcase-Dibs-min.jpg"
+      },
+      {
+        "title": "Brochure for Mage Digital",
+        "tags": ["Graphic Design", "Marketing Materials", "Brochures", "Photoshop"],
+        "image": "/img/magedigital-brochure-min.jpg"
+      },
+      {
+        "title": "Box Design",
+        "tags": ["Graphic Design", "Packaging Design", "Marketing Materials", "Photoshop"],
+        "image": "/img/sweetspice-packaging design-min.jpg"
+      },
+      {
+        "title": "Playing Card Design",
+        "tags": ["Graphic Design", "Card Design", "Marketing Materials", "Adobe Illustrator"],
+        "image": "/img/foodie-land-cards-min.jpg"
+      },
+      {
+        "title": "Facebook Post Design",
+        "tags": ["Graphic Design", "Social Media", "Marketing Materials", "Photoshop"],
+        "image": "/img/fb-post-min.jpg"
+      },
+      {
+        "title": "Instagram Post Design",
+        "tags": ["Graphic Design", "Social Media", "Marketing Materials", "Photoshop"],
+        "image": "/img/ig-post-min.jpg"
+      },
+      {
+        "title": "Instagram Post Design",
+        "tags": ["Graphic Design", "Social Media", "Marketing Materials", "Photoshop"],
+        "image": "/img/ig-post 2-min.jpg"
       }
-    ]
-  },
-  {
-    "year": 2022,
-    "jobs": [
-      {
-        "title": "Movesq",
-        "description": "Redesign e montagem do site da Movesq utilizando Laravel e Vue.",
-        "tags": ["design", "front-end"]
-      },
-      {
-        "title": "Carrefour Property",
-        "description": "Montagem e integração do novo portal do Carrefour Property.",
-        "tags": ["front-end", "wordpress"]
-      }
-    ]
-  },
-  {
-    "year": 2021,
-    "jobs": [
-      {
-        "title": "Juca Neto",
-        "description": "Montagem do site Juca Neto utilizando Laravel Blade e Vue.",
-        "tags": ["front-end", "laravel blade", "vue"]
-      },
-      {
-        "title": "Downstage",
-        "description": "Design, montagem e integração do Portal Downstage em WordPress.",
-        "tags": ["design", "front-end", "wordpress"],
-        "image": "https://cdn.dribbble.com/users/5072567/screenshots/16331273/media/a56e3aaf18124e953e12b92c5b09e286.png?resize=720x560"
-      },
-      {
-        "title": "William Sanches",
-        "description": "Montagem e integração do novo site do William Sanches.",
-        "tags": ["front-end", "wordpress"]
-      },
-      {
-        "title": "HSA",
-        "description": "Montagem e integração do novo site do HSA utilizando Angular.",
-        "tags": ["front-end", "angular"]
-      },
-      {
-        "title": "Bandas de 1 Álbum",
-        "description": "Idealização, design e desenvolvimento do projeto Bandas de 1 Álbum",
-        "tags": ["design", "front-end", "angular"],
-        "image": "https://cdn.dribbble.com/userupload/8309590/file/original-664a1e30a6cfa4580517c9776925556e.png?resize=720x560"
-      },
-      {
-        "title": "MIGNOW",
-        "description": "Montagem e integração do site do MIGNOW utilizando WordPress.",
-        "tags": ["front-end", "wordpress"]
-      }
-    ]
-  },
-  {
-    "year": 2020,
-    "jobs": [
-      {
-        "title": "Grupo Carrefour Brasil",
-        "description": "Montagem e integração do novo portal do Grupo Carrefour Brasil.",
-        "tags": ["front-end", "wordpress"]
-      },
-      {
-        "title": "Myralis",
-        "description": "Desenvolvimento do site da Myralis.",
-        "tags": ["front-end", "angular"]
-      },
-      {
-        "title": "Amazon Lord",
-        "description": "Design e integração do site Amazon Lord.",
-        "tags": ["design", "wordpress"],
-        "image": "https://cdn.dribbble.com/users/5072567/screenshots/11546255/media/41b25cd25da925c56aabd71d572b6e54.png?resize=720x560"
-      },
-      {
-        "title": "Sua Breja",
-        "description": "Desenvolvimento do site Sua Breja.",
-        "tags": ["front-end", "vue"]
-      },
-      {
-        "title": "Maritimos",
-        "description": "Montagem do novo site da Maritimos utilizando Laravel Blade e Sass, depois migrado do Laravel para WordPress",
-        "tags": ["front-end", "laravel blade", "wordpress"]
-      }
-    ]
-  },
-  {
-    "year": 2019,
-    "jobs": [
-      {
-        "title": "Chikas Cosméticos",
-        "description": "Desenvolvimento do site Chikas Cosméticos utilizando Handlebars e Sass.",
-        "tags": ["front-end", "wordpress"]
-      },
-      {
-        "title": "headdocs",
-        "description": "Desenvolvimento do site headdocs utilizando WordPress.",
-        "tags": ["front-end", "wordpress"]
-      },
-      {
-        "title": "Museu A Casa do Objeto Brasileiro",
-        "description": "Desenvolvimento do site do Museu A Casa do Objeto Brasileiro utilizando WordPress.",
-        "tags": ["front-end", "wordpress"]
-      },
-      {
-        "title": "Estância Sports",
-        "description": "Desenvolvimento da landing page Estância Sports utilizando Pug e Sass.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Zaic Singularidade",
-        "description": "Desenvolvimento da landing page Singularidade da Zaic Branding utilizando Pug e Sass.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Label Tech",
-        "description": "Desenvolvimento do site Label Tech utilizando Pug e Sass.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Zaic Branding",
-        "description": "Desenvolvimento do site Zaic Branding utilizando WordPress e Vue.js.",
-        "tags": ["front-end", "wordpress", "vue"]
-      },
-      {
-        "title": "Relatório Arapyaú",
-        "description": "Desenvolvimento do relatório Arapyaú em Pug e Sass.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Santa Casa Mauá Saúde",
-        "description": "Desenvolvimento do site do Plano de Saúde Santa Casa Mauá utilizando WordPress e Vue.js.",
-        "tags": ["front-end", "wordpress", "vue"]
-      },
-      {
-        "title": "Na Pressão",
-        "description": "Desenvolvimento do site Na Pressão da CUT utilizando Laravel Blade e Sass.",
-        "tags": ["front-end", "laravel blade"]
-      },
-      {
-        "title": "Pletora Filmes",
-        "description": "Desenvolvimento da landing page da Pletora Filmes.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Minha Nutricionista",
-        "description": "Desenvolvimento da landing page Minha Nutricionista da Vale Saúde Sempre utilizando Vue.js.",
-        "tags": ["front-end", "vue"]
-      },
-      {
-        "title": "Estância Pet",
-        "description": "Desenvolvimento da landing page Estância Pet utilizando Pug e Sass.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Widepower",
-        "description": "Desenvolvimento do site do Widepower utilizando WordPress.",
-        "tags": ["front-end", "wordpress"]
-      },
-      {
-        "title": "Conferência Nacional da CUT",
-        "description": "Desenvolvimento do site Conferência Nacional da CUT utilizando WordPress.",
-        "tags": ["front-end", "wordpress"]
-      }
-    ]
-  },
-  {
-    "year": 2018,
-    "jobs": [
-      {
-        "title": "Vale Saúde Prestador",
-        "description": "Desenvolvimento do site Prestador do Vale Saúde Sempre utilizando Vue.js e Laravel Blade.",
-        "tags": ["front-end", "laravel blade", "vue"]
-      },
-      {
-        "title": "Grupo Anpla",
-        "description": "Desenvolvimento do site do Grupo Anpla utilizando Pug e Sass.",
-        "tags": ["front-end"]
-      }
-    ]
-  },
-  {
-    "year": 2017,
-    "jobs": [
-      {
-        "title": "Casa Rossi",
-        "description": "Desenvolvimento do site da Casa Rossi utilizando Jekyll.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Saúde Cartão Mais",
-        "description": "Desenvolvimento da landing page Saúde Cartão Mais da Vale Saúde Sempre com Pug e Sass.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Agência Insane",
-        "description": "Desenvolvimento da página Agência Insane com Pug e Sass.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Estância Casamentos",
-        "description": "Desenvolvimento do site Casamentos do Estância Alto da Serra com Pug e Sass.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Essence Retail",
-        "description": "Desenvolvimento da landing page Essence Retail com Pug e Sass.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Tesf Policlínica",
-        "description": "Desenvolvimento do site da Tesf Policlínica utilizando Jekyll.",
-        "tags": ["front-end"]
-      }
-    ]
-  },
-  {
-    "year": 2016,
-    "jobs": [
-      {
-        "title": "C2com",
-        "description": "Desenvolvimento do site da C2com utilizando Jekyll.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Oficina Inteligente",
-        "description": "Desenvolvimento do site da Oficina Inteligente utilizando Jekyll.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Edifício New England",
-        "description": "Desenvolvimento da landing page do Edifício New England utilizando Jekyll.",
-        "tags": ["front-end"]
-      },
-      {
-        "title": "Lojas Incor",
-        "description": "Redesenho da marca/layout e desenvolvimento do front-end do E-commerce (Fbits)",
-        "tags": ["design", "front-end", "branding"]
-      }
-    ]
+    ]    
   }
 ]

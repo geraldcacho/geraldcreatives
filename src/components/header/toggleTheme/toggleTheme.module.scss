@@ -1,6 +1,10 @@
 .toggle {
   position: relative;
   cursor: pointer;
+
+  @media (max-width: 480px) {
+    margin-bottom: 20px;
+  }
 }
 
 .input {

@@ -3,7 +3,9 @@
   padding: 0;
   margin: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 html,
 body,
 #__next {
@@ -29,7 +31,7 @@ body {
     --color-primary-shade-rgb: 0, 0, 0;
     --color-primary-contrast: #fff;
     --color-primary-contrast-rgb: 255, 255, 255;
-    --color-secondary: #ffcb44;
+    --color-secondary: #00B3B3;
     --color-secondary-rgb: 255, 203, 68;
   }
 
@@ -42,7 +44,7 @@ body {
     --color-primary-rgb: 255, 255, 255;
     --color-primary-contrast: #000;
     --color-primary-contrast-rgb: 0, 0, 0;
-    --color-secondary: #4c42ff;
+    --color-secondary: #007BFF;
     --color-secondary-rgb: 255, 203, 68;
   }
 }
@@ -70,11 +72,11 @@ body {
   margin-right: auto;
 
   @media (min-width: 768px) {
-    width: 640px;
+    width: 100%;
   }
 
   @media (min-width: 1280px) {
-    width: 720px;
+    width: 100%;
   }
 }
 
@@ -103,8 +105,12 @@ h1 {
   font-size: 32px;
   line-height: 120%;
 
+  @media (max-width: 480px) {
+    text-align: center;
+  }
+  
   @media (min-width: 768px) {
-    font-size: 40px;
+    font-size: 24px;
   }
 
   @media (min-width: 1280px) {
@@ -119,11 +125,13 @@ h1 {
     opacity: 0.5;
 
     @media (min-width: 768px) {
-      font-size: 32px;
+      font-size: 24px;
+      margin-bottom: 0.5rem;
     }
 
     @media (min-width: 1280px) {
-      font-size: 40px;
+      font-size: 26px;
+      margin-bottom: 0.5rem;
     }
   }
 }
@@ -133,11 +141,11 @@ h2 {
   line-height: 120%;
 
   @media (min-width: 768px) {
-    font-size: 32px;
+    font-size: 24px;
   }
 
   @media (min-width: 1280px) {
-    font-size: 40px;
+    font-size: 26px;
   }
 }
 
@@ -210,4 +218,39 @@ figure {
 
 main {
   flex: 1;
+}
+
+/* Category Tabs */
+
+.tabs {
+  margin-bottom: 4rem;
+  display: flex;
+}
+
+.tabs button {
+  padding: 25px 20px;
+  font-size: 20px;
+  width: 50%;
+  color: var(--color-primary-contrast);
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  transition: color 0.3s, border-bottom-color 0.3s; 
+  font-weight: bold; 
+  border-bottom: 2px solid var(--color-primary-contrast); 
+}
+
+.tabs button.active {
+  color: var(--color-secondary);
+  border-bottom: 2px solid var(--color-secondary); 
+}
+
+.tabs button:not(.active) {
+  color: var(--color-primary-contrast);
+}
+
+.tabs button:hover {
+  color: var(--color-secondary);
+  border-bottom: 2px solid var(--color-secondary); 
 }

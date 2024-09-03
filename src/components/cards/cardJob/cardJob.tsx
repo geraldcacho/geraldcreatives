@@ -6,20 +6,45 @@ type Props = {
   title: string,
   description: string,
   tags: Array<string>,
-  image?: string
+  image?: string,
+  url?: string // Add url here
 }
 
 export default function CardJob(props: Props) {
-  return(
+  const { title, description, tags, image, url } = props;
+
+  return (
     <div className={styles.card}>
-      <h3 className={styles.title}>{props.title}</h3>
-      <p className={styles.description}>{props.description}</p>
-      {props.image && (
-        <Image className={styles.image} src={props.image} loading="lazy" width="720" height="560" alt={`Conceito do projeto ${props.title}`} />
+      <h3 className={styles.title}>{title}</h3>      
+      {image && (
+        url ? (
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            <Image 
+              className={styles.image} 
+              src={image} 
+              alt={`Conceito do projeto ${title}`} 
+              layout="responsive" 
+              width={720} 
+              height={560} 
+              loading="lazy" 
+            />
+          </a>
+        ) : (
+          <Image 
+            className={styles.image} 
+            src={image} 
+            alt={`Conceito do projeto ${title}`} 
+            layout="responsive" 
+            width={720} 
+            height={560} 
+            loading="lazy" 
+          />
+        )
       )}
+      <p className={styles.description}>{description}</p>
       <div className={styles.infos}>
-        <ListTags list={props.tags}/>
+        <ListTags list={tags} />
       </div>
     </div>
-  )
+  );
 }

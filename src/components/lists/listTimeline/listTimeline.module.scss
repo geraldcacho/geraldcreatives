@@ -29,12 +29,25 @@
   li:not(:last-child) {
     margin-bottom: 8px;
 
+    @media (max-width: 480px) {
+      margin-bottom: 20px;
+    }
+
     @media (min-width: 768px) {
-      margin-bottom: 16px;
+      margin-bottom: 18px;
+      
     }
 
     @media (min-width: 1280px) {
-      margin-bottom: 24px;
+      margin-bottom: 26px;
     }
   }
+  li:nth-child(2) span::after{
+    margin: 0.4rem 1rem 0 1.6rem;
+    
+    @media (max-width: 480px) {
+      margin: 0.4rem 1.2rem 0 1.8rem;
+    }
+  }
+  
 }

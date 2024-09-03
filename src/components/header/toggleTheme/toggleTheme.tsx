@@ -2,7 +2,7 @@
 
 import toggle from './toggleTheme.module.scss';
 import { Icon } from '@iconify/react';
-import { ChangeEvent, LabelHTMLAttributes } from 'react';
+import { ChangeEvent } from 'react';
 
 const handleToggle = (e: ChangeEvent): void => {
   const $el = e.target as HTMLInputElement;
@@ -17,7 +17,7 @@ const handleToggle = (e: ChangeEvent): void => {
 };
 
 export default function ToggleTheme() {
-  return(
+  return (
     <label className={toggle.toggle}>
       <input onChange={(e) => handleToggle(e)} id="theme" type="checkbox" className={`${toggle.input} theme`} />
       <div className={toggle.wrapper}>
@@ -29,5 +29,5 @@ export default function ToggleTheme() {
         </div>
       </div>
     </label>
-  )
+  );
 }
