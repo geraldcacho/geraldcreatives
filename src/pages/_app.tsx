@@ -1,4 +1,3 @@
-// pages/_app.tsx
 import 'normalize.css';
 import './globals.scss';
 
@@ -25,7 +24,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     if (!document.body.classList.length) {
       document.body.classList.add('dark');
     }
-  }, []);
+  }, []); // Add an empty dependency array to run only once on mount
 
   useEffect(() => {
     const handleRouteChange = (url: string) => {
