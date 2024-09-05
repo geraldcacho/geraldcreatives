@@ -28,9 +28,12 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 
   useEffect(() => {
     const handleRouteChange = (url: string) => {
-      window.gtag('config', GA_TRACKING_ID, {
-        page_path: url,
-      });
+      // TypeScript now recognizes `window.gtag`
+      if (typeof window.gtag === 'function') {
+        window.gtag('config', GA_TRACKING_ID, {
+          page_path: url,
+        });
+      }
     };
 
     router.events.on('routeChangeComplete', handleRouteChange);
