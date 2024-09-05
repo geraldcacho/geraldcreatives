@@ -33,12 +33,12 @@ export default function Index() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Gerald Cacho | Web Developer and Designer" />
         <meta property="og:description" content="Web development and design portfolio: WordPress, PHP, Elementor, SEO, custom themes, UI/UX design, eCommerce solutions, digital marketing." />
-        <meta property="og:image" content="https://geraldcacho.com/img/gerald-cacho-abra-digital-nomads.jpg" />
+        <meta property="og:image" content="https://geraldcacho.com/img/gerald-cacho-digital-services.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://geraldcacho.com/" />
         <meta name="twitter:title" content="Gerald Cacho | Web Developer and Designer" />
         <meta name="twitter:description" content="Web development and design portfolio: WordPress, PHP, Elementor, SEO, custom themes, UI/UX design, eCommerce solutions, digital marketing." />
-        <meta name="twitter:image" content="https://geraldcacho.com/img/gerald-cacho-abra-digital-nomads.jpg" />
+        <meta name="twitter:image" content="https://geraldcacho.com/img/gerald-cacho-digital-services.jpg" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="google-site-verification" content="yltPuWkp9Ug6CIU-wJSFvqGNy8KOLznhDvOyh" />
       </Head>

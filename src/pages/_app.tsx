@@ -15,7 +15,7 @@ const poppins = Poppins({
   subsets: ['latin'],
 });
 
-const GA_TRACKING_ID = 'G-PJV7EC72XD'; // Replace with your Google Analytics ID
+const GA_TRACKING_ID = 'G-PJV7EC72XD'; 
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   const router = useRouter();
