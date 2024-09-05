@@ -15,8 +15,6 @@ const poppins = Poppins({
   subsets: ['latin'],
 });
 
-const GA_TRACKING_ID = 'G-PJV7EC72XD'; 
-
 const MyApp = ({ Component, pageProps }: AppProps) => {
   const router = useRouter();
 
@@ -26,41 +24,10 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     }
   }, []); // Add an empty dependency array to run only once on mount
 
-  useEffect(() => {
-    const handleRouteChange = (url: string) => {
-      // TypeScript now recognizes `window.gtag`
-      if (typeof window.gtag === 'function') {
-        window.gtag('config', GA_TRACKING_ID, {
-          page_path: url,
-        });
-      }
-    };
-
-    router.events.on('routeChangeComplete', handleRouteChange);
-
-    // Handle initial page load
-    handleRouteChange(window.location.pathname);
-
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
-    };
-  }, [router.events]);
-
   return (
     <div className={`${poppins.className} app`}>
       <Head>
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', '${GA_TRACKING_ID}');
-            `,
-          }}
-        />
+        {/* No Google Analytics scripts */}
       </Head>
       <Header />
       <main role="main">
