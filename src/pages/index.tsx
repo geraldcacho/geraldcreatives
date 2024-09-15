@@ -40,7 +40,7 @@ export default function Index() {
         <meta name="twitter:description" content="Web development and design portfolio: WordPress, PHP, Elementor, SEO, custom themes, UI/UX design, eCommerce solutions, digital marketing." />
         <meta name="twitter:image" content="https://geraldcacho.com/img/gerald-cacho-digital-services.jpg" />
         <link rel="icon" href="/favicon.ico" />
-        <meta name="google-site-verification" content="yltPuWkp9Ug6CIU-wJSFvqGNy8KOLznhDvOyh1CVMj8" />
+        <meta name="google-site-verification" content="yltPuWkp9Ug6CIU-wJSFvqGNy8KOLznhDvOyh" />
       
       
         <link rel="canonical" href="https://geraldcacho.com/" />
