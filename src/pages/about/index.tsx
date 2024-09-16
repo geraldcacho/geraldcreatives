@@ -39,7 +39,7 @@ export default function Sobre() {
 
         <div className="content">
           <h2>Professional Experience</h2>
-          <ListTimeline>
+          <ListTimeline title="">
             {experiences.map((experience, index) => (
               <li key={index}>
                 <CardTimeline
