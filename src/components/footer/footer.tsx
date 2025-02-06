@@ -1,11 +1,17 @@
-'use client'
+'use client';
 
-import { Icon } from "@iconify/react";
+import { useState } from 'react';
+import { Icon } from '@iconify/react';
 import styles from './footer.module.scss';
 import LinkExternal from '@/components/buttons/external/external';
 import Link from 'next/link';
 
 export default function Footer() {
+  const [isPopupOpen, setPopupOpen] = useState(false);
+
+  const handleOpenPopup = () => setPopupOpen(true);
+  const handleClosePopup = () => setPopupOpen(false);
+
   return (
     <footer role="contentinfo" className={styles.footer}>
       <nav className={styles.links}>
@@ -14,7 +20,7 @@ export default function Footer() {
       </nav>
 
       <p className={styles.connect}>
-        <a href="mailto:gc.geraldcacho@gmail.com" className={styles.cta}>
+        <a href="mailto:gc.geraldcaccho@gmail.com">
           <strong>Let&apos;s Connect</strong>
         </a>
       </p>
@@ -30,6 +36,7 @@ export default function Footer() {
       <Link href="#top" scroll={true} className={styles.backToTop}>
         <Icon icon="eva:arrow-upward-fill" />
       </Link>
+
     </footer>
-  )
+  );
 }
