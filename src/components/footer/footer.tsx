@@ -1,42 +1,48 @@
-'use client';
-
-import { useState } from 'react';
 import { Icon } from '@iconify/react';
 import styles from './footer.module.scss';
 import LinkExternal from '@/components/buttons/external/external';
 import Link from 'next/link';
+import { track } from '@/lib/analytics';
+
+const RESUME_FILE = '/files/Gerald_Cacho_Resume_2026.pdf';
+const EMAIL = 'gc.geraldcacho@gmail.com';
 
 export default function Footer() {
-  const [isPopupOpen, setPopupOpen] = useState(false);
-
-  const handleOpenPopup = () => setPopupOpen(true);
-  const handleClosePopup = () => setPopupOpen(false);
-
   return (
     <footer role="contentinfo" className={styles.footer}>
-      <nav className={styles.links}>
-        <LinkExternal title="Resume" href="/files/Gerald_Cacho_resume2024.pdf" />
-        <LinkExternal title="LinkedIn" href="https://www.linkedin.com/in/gerald-cacho/" />
+      <nav className={styles.links} aria-label="Resume and profiles">
+        <LinkExternal
+          title="Resume"
+          href={RESUME_FILE}
+          onClick={() => track('resume_download', { file_name: 'Gerald_Cacho_Resume_2026.pdf' })}
+        />
+        <LinkExternal
+          title="LinkedIn"
+          href="https://www.linkedin.com/in/gerald-cacho/"
+          onClick={() => track('social_click', { network: 'linkedin' })}
+        />
+        <LinkExternal
+          title="GitHub"
+          href="https://github.com/geraldcacho"
+          onClick={() => track('social_click', { network: 'github' })}
+        />
       </nav>
 
       <p className={styles.connect}>
-        <a href="mailto:gc.geraldcaccho@gmail.com">
+        <a
+          href={`mailto:${EMAIL}`}
+          onClick={() => track('contact_click', { method: 'email', location: 'footer' })}
+        >
           <strong>Let&apos;s Connect</strong>
         </a>
       </p>
-      <p className={styles.copy}>2024 &copy; Gerald Cacho</p>
-      <p className={styles.coffee}>
-        <a href="https://wise.com/pay/me/geraldc526" target="_blank" rel="noopener noreferrer">
-          <small>
-            <Icon icon="eva:heart-fill" />
-            <strong> Buy me a coffee</strong>
-          </small>
-        </a>
+      <p className={styles.copy}>
+        {new Date().getFullYear()} &copy; Gerald Cacho
       </p>
-      <Link href="#top" scroll={true} className={styles.backToTop}>
+
+      <Link href="#top" scroll={true} className={styles.backToTop} aria-label="Back to top">
         <Icon icon="eva:arrow-upward-fill" />
       </Link>
-
     </footer>
   );
 }

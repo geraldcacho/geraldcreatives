@@ -1,50 +1,56 @@
 [
   {
-    "year": "2022-2024",
+    "year": "2025 - 2026",
+    "title": "WordPress Developer & Designer",
+    "company": "CodeBlu Development",
+    "description": "Led end-to-end website design and development for international clients — requirements, UI/UX in Figma, WordPress theme and plugin development in PHP and JavaScript, QA and deployment. Managed WP Engine hosting (staging, deployments, backups, performance), integrated Stripe and PayPal, and applied technical SEO, accessibility and security best practices."
+  },
+  {
+    "year": "2017 - 2025",
+    "title": "Web Developer | Graphic & UI/UX Designer",
+    "company": "Freelance",
+    "description": "Delivered end-to-end digital projects across WordPress, Shopify, Webflow, Next.js and Nuxt.js. Built and maintained WooCommerce and Shopify stores, configured HubSpot and GoHighLevel CRMs (pipelines, workflows, forms, email automation), implemented technical and on-page SEO, ran Google Ads, and managed cloud hosting on Amazon Lightsail."
+  },
+  {
+    "year": "2022 - 2024",
     "title": "Web Developer",
-    "company": " Cloudstaff (Client: TheHypeSociety)",
-    "description": "Created websites for new clients by converting PSD designs or designing themes in WordPress and Elementor. Customized WooCommerce stores and managed CMS platforms like Wix and Squarespace. Handled website maintenance, updates, web hosting management, and graphic design. Improved website performance with HTML, CSS, JavaScript, and PHP. Implemented SEO strategies and designed email marketing templates."
+    "company": "Cloudstaff (Client: The Hype Society)",
+    "description": "Developed and maintained WordPress sites with Elementor, WPBakery and Gutenberg, and customized WooCommerce storefronts. Partnered with the digital marketing team on SEO, analytics and performance, and produced email templates and campaign assets across WordPress, Wix, Squarespace and Unbounce."
   },
   {
     "year": "2022",
     "title": "Senior Graphic Designer",
-    "company": "Emapta (Client: Canningvale)",
-    "description": "Developed branding guidelines and designed digital content, including EDMs, web banners, and social media graphics. Produced print-ready artwork and performed photo retouching and color correction."
+    "company": "Emapta (Client: Canningvale Australia)",
+    "description": "Built and maintained brand guidelines and produced web banners, EDMs and social media graphics for campaigns. Prepared print-ready packaging artwork — swing tags, jar labels, inserts and box labels — and retouched and colour-corrected product imagery for digital and print."
   },
   {
-    "year": "2021-2022",
+    "year": "2021 - 2022",
     "title": "Senior Software Engineer",
-    "company": "CloudStaff (Client: Virtunet)",
-    "description": "Designed, implemented, and managed WordPress websites, including custom themes and plugins. Handled front-end and back-end development, managed eCommerce and BYOD page updates, and maintained the Linode web server. Provided troubleshooting support and created EDMs, social media creatives, and other graphic designs."
+    "company": "Cloudstaff (Client: Virtunet Australia)",
+    "description": "Designed, built and managed WordPress sites end to end, including custom themes and plugins and eCommerce / BYOD functionality in Datto environments. Administered Linux web servers and resolved issues for clients and internal teams."
   },
   {
-    "year": "2017-2021",
-    "title": "Web Developer | Graphics & UI/UX Designer",
-    "company": "Freelance",
-    "description": "Designed and developed websites using WordPress, Shopify, and Webflow. Managed server operations, security, and implemented SEO strategies. Created visual assets and multimedia content."
-  },
-  {
-    "year": "2018-2020",
+    "year": "2018 - 2020",
     "title": "Graphic Designer | Desktop Publisher | Bid Coordinator",
-    "company": "GulfStar",
-    "description": "Redesigned and maintained the corporate WordPress site. Developed proposals, templates, and marketing materials to boost brand visibility."
+    "company": "GulfStar — Dubai, UAE",
+    "description": "Supported redevelopment and maintenance of the corporate website — WordPress themes from PSD, plugin customization, WooCommerce and Shopify — and produced brand and marketing collateral. Coordinated RFP/RFQ and tender submissions, managing templates, compliance and version control with managers and subject-matter experts."
   },
   {
-    "year": "2017-2018",
-    "title": "Web Developer & Designer | Digital Marketing",
-    "company": "Blocks Real Estate",
-    "description": "Designed and developed websites with API integrations, managed cPanels, and launched new sites. Created marketing materials and video ads. Managed social media accounts, executed SEO strategies, and handled Google AdWords campaigns."
+    "year": "2017 - 2018",
+    "title": "Web Developer | Designer | Digital Marketing Executive",
+    "company": "Blocks Real Estate — Dubai, UAE",
+    "description": "Designed, developed and maintained business websites with API integrations and cPanel hosting, and produced marketing graphics and video ads. Ran SEO and Google Ads campaigns and managed social media accounts."
   },
   {
-    "year": "2015-2017",
+    "year": "2015 - 2017",
     "title": "Front-End Developer",
     "company": "ZIMI Tech",
-    "description": "Designed and developed WordPress sites, custom web prototypes, and worked on the front-end of internal CRM systems. Created logos, images, animations, and banners, while optimizing website speed and SEO."
+    "description": "Built and maintained front-end interfaces for websites and internal systems in HTML, CSS and JavaScript, converting PSD designs into responsive, cross-browser layouts. Created WordPress themes and plugin customizations, visual assets and animations, and implemented on-page SEO."
   },
   {
-    "year": "2014-2015",
-    "title": "Web Developer | Webmaster",
-    "company": "Optimize Web Solutions",
-    "description": "Designed and developed websites using WordPress, PHP with Bootstrap, and other CMS platforms. Managed server infrastructure, performed website updates, backups, and troubleshooting. Built and led the production team."
+    "year": "2014 - 2015",
+    "title": "Web Developer | IT Administrator | Webmaster",
+    "company": "Optimize Web Solutions — Baguio City, PH",
+    "description": "Built custom WordPress themes and static PHP sites from PSD layouts, integrated third-party services, and handled maintenance, troubleshooting and cross-browser testing. Managed WHM hosting and deployments and provided IT and network support."
   }
 ]
