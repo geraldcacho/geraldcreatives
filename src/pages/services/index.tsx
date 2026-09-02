@@ -1,22 +1,77 @@
 import ListAccordion from "@/components/lists/listAccordion/listAccordion";
-import Head from "next/head";
+import Seo from "@/components/seo/seo";
+import { SITE_URL, breadcrumbSchema } from "@/data/seo";
+
+const services = [
+  {
+    title: "Logo & Branding Design",
+    content:
+      "Unique logos and complete brand identities — logo suite, colour, type and usage guidelines — so your brand stays consistent and recognisable across every touchpoint.",
+  },
+  {
+    title: "Graphics Design",
+    content:
+      "Marketing collateral that supports campaigns and sales: brochures, flyers, social media posts, email graphics, presentations and web banners.",
+  },
+  {
+    title: "UI/UX Design",
+    content:
+      "End-to-end UI/UX in Figma — user flows, wireframes, prototypes and design systems — built for clarity, accessibility and straightforward hand-off to development.",
+  },
+  {
+    title: "Web Design & Development",
+    content:
+      "Custom, responsive websites built mainly on WordPress and WooCommerce, with tailored functionality, third-party and payment-gateway integrations, and performance and SEO baked in.",
+  },
+  {
+    title: "Web Hosting Management",
+    content:
+      "Setup and ongoing management of hosting on WP Engine, Amazon Lightsail and Linux servers — deployments, staging, backups, SSL, security hardening and uptime monitoring.",
+  },
+  {
+    title: "SEO Services",
+    content:
+      "Technical and on-page SEO: site structure, Core Web Vitals and page speed, indexing, schema markup, and analytics setup with Google Analytics 4 and Google Tag Manager.",
+  },
+];
+
+const servicesSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Services by Gerald Cacho",
+  url: `${SITE_URL}/services`,
+  about: { "@id": `${SITE_URL}/#gerald-cacho` },
+  mainEntity: {
+    "@type": "OfferCatalog",
+    name: "Web design, development and SEO services",
+    provider: { "@id": `${SITE_URL}/#gerald-cacho` },
+    itemListElement: services.map((s) => ({
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: s.title,
+        description: s.content,
+        provider: { "@id": `${SITE_URL}/#gerald-cacho` },
+      },
+    })),
+  },
+};
 
 export default function Services() {
   return (
     <>
-      <Head>
-        <title>Services | Gerald Cacho | Web Design, Development, and SEO</title>
-        <meta name="description" content="Explore the range of services offered by Gerald Cacho, including logo and branding design, graphics design, UI/UX design, web design and development, web hosting management, and SEO services. Serving clients in the Philippines, US, Australia, and UK." />
-        <meta name="keywords" content="web design, web development, SEO services, logo design, branding design, graphics design, UI/UX design, web hosting management, Gerald Cacho, Philippines, US, Australia, UK" />
-        <meta property="og:title" content="Services | Gerald Cacho" />
-        <meta property="og:description" content="Discover the professional services offered by Gerald Cacho, from logo and branding design to web development and SEO, catering to clients in the Philippines, US, Australia, and UK." />
-        <meta property="og:image" content="https://geraldcacho.com/img/services-cover.jpg" />
-        <meta property="og:url" content="https://geraldcacho.com/services" />
-        <meta name="twitter:title" content="Services | Gerald Cacho" />
-        <meta name="twitter:description" content="Explore the diverse services provided by Gerald Cacho, including web design, development, SEO, and more, for clients in the Philippines, US, Australia, and UK." />
-        <meta name="twitter:image" content="https://geraldcacho.com/img/services-cover.jpg" />
-        <link rel="canonical" href="https://geraldcacho.com/services" />
-      </Head>
+      <Seo
+        title="Services | Gerald Cacho | Web Design, Development & SEO"
+        description="Web design and development, UI/UX, logo and branding, hosting management and technical SEO by Gerald Cacho, for businesses and agencies in the US, UK and Australia."
+        path="/services"
+        jsonLd={[
+          servicesSchema,
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Services", path: "/services" },
+          ]),
+        ]}
+      />
       <div className="wrapper">
         <div className="content">
           <h1>
@@ -24,34 +79,9 @@ export default function Services() {
             <strong>From Design to Launch</strong>
           </h1>
 
-          <ListAccordion list={[
-            {
-              title: "Logo & Branding Design",
-              content: "Crafting unique logos and comprehensive brand identities, including all necessary assets and guidelines to establish a cohesive and memorable brand presence."
-            },
-            {
-              title: "Graphics Design",
-              content: "Designing impactful marketing collaterals such as brochures, flyers, social media posts, email marketing materials, presentations, and banners to enhance your brand visibility and engagement."
-            },
-            {
-              title: "UI/UX Design",
-              content: "Providing thorough UI/UX design services, including detailed prototyping, strategic planning, and implementation of best practices to ensure an exceptional user experience and interface."
-            },
-            {
-              title: "Web Design & Development",
-              content: "Creating custom websites with responsive design, tailored functionality, and meticulous attention to detail to meet your unique needs and objectives."
-            },
-            {
-              title: "Web Hosting Management",
-              content: "Managing and maintaining your web hosting environment to ensure optimal performance, robust security, and reliable uptime for your online presence."
-            },
-            {
-              title: "SEO Services",
-              content: "Enhancing your site's visibility with a comprehensive SEO strategy, including on-page and off-page techniques, to improve search engine rankings and drive more organic traffic."
-            }
-          ]} />
+          <ListAccordion list={services} />
         </div>
       </div>
     </>
-  )
+  );
 }

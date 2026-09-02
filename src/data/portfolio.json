@@ -4,7 +4,7 @@
     "jobs": [
       {
         "title": "1st Energy",
-        "description": "Assisted with developing and maintaining the 1st Energy website, ensuring optimal performance and regular updates. Utilized WordPress and Elementor for seamless content management and custom design.",
+        "description": "Maintained and enhanced the 1st Energy website, keeping performance, content and page templates up to date. Built and updated pages in WordPress and Elementor.",
         "tags": ["Web Development", "Maintenance", "WordPress", "Elementor", "Custom Design"],
         "url": "https://1stenergy.com.au/",
         "image": "/img/1stenergy-thumbnail-min.jpg"
@@ -60,21 +60,21 @@
       },
       {
         "title": "Kalker Montessori",
-        "description": "Customized and developed a website for Kalke Montessori, reflecting their educational values through theme modifications and thoughtful design edits. Utilized WordPress and Elementor for development and customization.",
+        "description": "Customized and developed the Kalker Montessori website, reflecting the school's educational values through theme modifications and considered design edits. Built in WordPress and Elementor.",
         "tags": ["Theme Customization", "Website Development", "Educational Design", "WordPress", "Elementor"],
         "url": "https://kalkermontessori.vic.edu.au/",
         "image": "/img/kalker-thumbnail-min.jpg"
       },
       {
         "title": "IntoJobs",
-        "description": "Restructured and enhanced the Into Jobs website to improve user experience and functionality. Focused on feature enhancements using WordPress and Elementor for a more intuitive job portal.",
+        "description": "Restructured and enhanced the IntoJobs website to improve user experience and functionality, focusing on feature work in WordPress and Elementor for a more intuitive job portal.",
         "tags": ["Site Restructuring", "Feature Enhancement", "WordPress", "Elementor", "User Experience"],
         "url": "https://intojobs.com.au/",
         "image": "/img/intojobs-thumbnail-min.jpg"
       },
       {
         "title": "Image Creation",
-        "description": "Maintains and updates the Image Creation website, ensuring it showcases creative work with ongoing updates. Used WordPress and Elementor for continuous content management and design improvements.",
+        "description": "Maintained and updated the Image Creation website so it consistently showcased current creative work. Handled ongoing content management and design improvements in WordPress and Elementor.",
         "tags": ["Website Maintenance", "Content Updates", "WordPress", "Elementor", "Creative Showcase"],
         "url": "http://imagecreation.com.au/",
         "image": "/img/imagecreation-thumbnail-min.jpg"

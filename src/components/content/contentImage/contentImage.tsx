@@ -14,7 +14,8 @@ export default function ContentImage(props: Props) {
     <figure>
       <picture>
         <Image priority className={styles.image} src={props.src} width={props.width} height={props.height} alt={props.alt}/>
-        <Image priority className={styles.shadow} src={props.src} width={props.width} height={props.height} alt={props.alt}/>
+        {/* Decorative duplicate used purely for the blurred drop-shadow effect. */}
+        <Image aria-hidden className={styles.shadow} src={props.src} width={props.width} height={props.height} alt="" />
       </picture>
 
       {props.children}
