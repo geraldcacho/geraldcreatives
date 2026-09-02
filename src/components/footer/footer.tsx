@@ -4,7 +4,7 @@ import LinkExternal from '@/components/buttons/external/external';
 import Link from 'next/link';
 import { track } from '@/lib/analytics';
 
-const RESUME_FILE = '/files/Gerald_Cacho_Resume_2026.pdf';
+const RESUME_FILE = '/files/Gerald_Cacho_Resume_202609.pdf';
 const EMAIL = 'gc.geraldcacho@gmail.com';
 
 export default function Footer() {
@@ -14,7 +14,7 @@ export default function Footer() {
         <LinkExternal
           title="Resume"
           href={RESUME_FILE}
-          onClick={() => track('resume_download', { file_name: 'Gerald_Cacho_Resume_2026.pdf' })}
+          onClick={() => track('resume_download', { file_name: 'Gerald_Cacho_Resume_202609.pdf' })}
         />
         <LinkExternal
           title="LinkedIn"

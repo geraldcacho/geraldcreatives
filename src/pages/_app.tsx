@@ -1,7 +1,7 @@
 import 'normalize.css';
 import './globals.scss';
 
-import { Poppins } from '@next/font/google';
+import { Poppins } from 'next/font/google';
 import Head from 'next/head';
 import Script from 'next/script';
 import Header from '@/components/header/header';
