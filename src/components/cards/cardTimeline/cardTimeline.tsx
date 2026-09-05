@@ -5,7 +5,6 @@ type Props = {
   title: string,
   company: string,
   description: string,
-  isLast?: boolean,
 }
 
 export default function CardTimeline(props: Props) {
@@ -15,7 +14,7 @@ export default function CardTimeline(props: Props) {
 
       <div className={styles.rail} aria-hidden="true">
         <span className={styles.dot} />
-        {!props.isLast && <span className={styles.line} />}
+        <span className={styles.line} />
       </div>
 
       <div className={styles.content}>
