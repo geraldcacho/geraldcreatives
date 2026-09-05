@@ -21,11 +21,6 @@ export default function Footer() {
           href="https://www.linkedin.com/in/gerald-cacho/"
           onClick={() => track('social_click', { network: 'linkedin' })}
         />
-        <LinkExternal
-          title="GitHub"
-          href="https://github.com/geraldcacho"
-          onClick={() => track('social_click', { network: 'github' })}
-        />
       </nav>
 
       <p className={styles.connect}>

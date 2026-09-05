@@ -24,6 +24,11 @@ const services = [
       "Custom, responsive websites built mainly on WordPress and WooCommerce, with tailored functionality, third-party and payment-gateway integrations, and performance and SEO baked in.",
   },
   {
+    title: "CRM & Marketing Automation",
+    content:
+      "HubSpot and GoHighLevel setup and management — pipelines, workflows, email automations, landing pages and forms — to automate lead capture, nurturing and follow-up so less falls through the cracks.",
+  },
+  {
     title: "Web Hosting Management",
     content:
       "Setup and ongoing management of hosting on WP Engine, Amazon Lightsail and Linux servers — deployments, staging, backups, SSL, security hardening and uptime monitoring.",
@@ -62,7 +67,7 @@ export default function Services() {
     <>
       <Seo
         title="Services | Gerald Cacho | Web Design, Development & SEO"
-        description="Web design and development, UI/UX, logo and branding, hosting management and technical SEO by Gerald Cacho, for businesses and agencies in the US, UK and Australia."
+        description="Web design and development, UI/UX, logo and branding, CRM and marketing automation, hosting management and technical SEO by Gerald Cacho, for businesses and agencies in the US, UK and Australia."
         path="/services"
         jsonLd={[
           servicesSchema,

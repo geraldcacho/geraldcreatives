@@ -84,6 +84,7 @@ export default function About() {
                   company={experience.company}
                   year={experience.year}
                   description={experience.description}
+                  isLast={index === experiences.length - 1}
                 />
               </li>
             ))}

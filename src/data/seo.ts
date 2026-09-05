@@ -56,7 +56,6 @@ export const personSchema = {
   knowsAbout: KNOWS_ABOUT,
   sameAs: [
     'https://www.linkedin.com/in/gerald-cacho/',
-    'https://github.com/geraldcacho',
   ],
 };
 
@@ -112,7 +111,7 @@ export const aboutFaq: { question: string; answer: string }[] = [
   {
     question: 'What services does Gerald Cacho provide?',
     answer:
-      'Logo and branding design, graphics design, UI/UX design, web design and development, web hosting management, and SEO — for small and mid-sized businesses and agencies.',
+      'Logo and branding design, graphics design, UI/UX design, web design and development, CRM and marketing automation, web hosting management, and SEO — for small and mid-sized businesses and agencies.',
   },
   {
     question: 'What technologies does Gerald Cacho work with?',
