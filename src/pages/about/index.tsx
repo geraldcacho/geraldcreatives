@@ -84,7 +84,6 @@ export default function About() {
                   company={experience.company}
                   year={experience.year}
                   description={experience.description}
-                  isLast={index === experiences.length - 1}
                 />
               </li>
             ))}
@@ -94,7 +93,7 @@ export default function About() {
         <div className={`content ${styles.faq}`}>
           <h2>Frequently Asked Questions</h2>
           {aboutFaq.map((item) => (
-            <div key={item.question}>
+            <div key={item.question} className={styles.faqItem}>
               <h3>{item.question}</h3>
               <p>{item.answer}</p>
             </div>

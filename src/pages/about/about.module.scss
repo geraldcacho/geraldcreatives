@@ -7,22 +7,18 @@
 }
 
 .faq {
-  margin-top: 8px;
-
-  h3 {
-    margin-top: 40px;
-
-    @media (min-width: 768px) {
-      margin-top: 48px;
-    }
-  }
-
-  h3:first-of-type {
-    margin-top: 16px;
-  }
+  margin-top: 5rem;
 
   p {
     margin-top: 10px;
     opacity: 0.85;
+  }
+}
+
+.faqItem {
+  margin-bottom: 2rem;
+
+  &:last-child {
+    margin-bottom: 0;
   }
 }

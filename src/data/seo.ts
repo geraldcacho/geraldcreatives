@@ -106,12 +106,12 @@ export const aboutFaq: { question: string; answer: string }[] = [
   {
     question: 'What does Gerald Cacho specialize in?',
     answer:
-      'Custom WordPress and WooCommerce development, UI/UX design in Figma, front-end development, technical SEO, and CRM and marketing automation with HubSpot and GoHighLevel. Gerald typically owns the full delivery cycle: discovery, design, build, third-party integrations, QA, launch and ongoing optimization.',
+      'Custom WordPress and WooCommerce development, UI/UX design in Figma, front-end development, technical SEO, and CRM and marketing automation with HubSpot and GoHighLevel. He usually stays on a project from the first requirements conversation through design, build, integrations and launch, then keeps an eye on it afterward.',
   },
   {
     question: 'What services does Gerald Cacho provide?',
     answer:
-      'Logo and branding design, graphics design, UI/UX design, web design and development, CRM and marketing automation, web hosting management, and SEO — for small and mid-sized businesses and agencies.',
+      'Logo and branding design, graphics design, UI/UX design, web design and development, CRM and marketing automation, web hosting management, and SEO. He mostly works with small and mid-sized businesses and agencies.',
   },
   {
     question: 'What technologies does Gerald Cacho work with?',
@@ -121,7 +121,7 @@ export const aboutFaq: { question: string; answer: string }[] = [
   {
     question: 'What kinds of projects has Gerald Cacho worked on?',
     answer:
-      'Business and marketing websites, WooCommerce and Shopify stores, custom WordPress themes and plugins, CRM and marketing-automation setups, and brand and marketing collateral — across industries including energy, education, recruitment, real estate, homewares and workplace safety and compliance.',
+      'Business and marketing websites, WooCommerce and Shopify stores, custom WordPress themes and plugins, CRM and marketing-automation setups, and brand and marketing collateral. His clients span industries including energy, education, recruitment, real estate, homewares and workplace safety and compliance.',
   },
   {
     question: 'Where is Gerald Cacho based and who does he work with?',
